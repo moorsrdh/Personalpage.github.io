@@ -41,6 +41,12 @@ h4 {
   background-position: center;
   padding: 60px 40px;
   height: 600px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title h1 {
+  margin: 0;
 }
 
 .intro-paragraph,
