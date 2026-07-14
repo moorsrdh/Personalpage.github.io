@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="cssstylesheet/style.css" />
+    <title>Personal Page</title>
+  </head>
+  <body>
+    <section class="title">
+      <h1>
+        My Love <br />
+        For Maine
+      </h1>
+    </section>
+
+    <section class="intro-section">
+      <div class="intro-text">
+        <p class="intro-paragraph">
+          Hi! My name is Amanda, and I grew up in Maine. It is a place that will
+          always be my home, even when i'm melting in Florida and missing real
+          seasons. Lets pretend the humidity is character building and not
+          trying to attack me.
+          <br />
+          <a
+            href="https://visitmaine.com/seasons-in-maine/fall-in-maine/?gad_source=1&gad_campaignid=16773938088&gbraid=0AAAAAohDb3NQZ0PP6IIn4cjwNNPS9WXEf&gclid=CjwKCAjwx7LSBhB3EiwAjcodxOoZasnlUju4SutMTxydI9aJEud9rmuSL-Iufs40-TPXQnF7l6Q-8hoCRPkQAvD_BwE"
+            target="_blank"
+            >Click here to plan a trip</a
+          >
+        </p>
+      </div>
+      <div class="intro-image">
+        <img src="images/mainephoto.jpeg" alt="Me photo" class="maine-photo" />
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="aboutme">
+        <h2>About Me</h2>
+        <p class="about-paragraph">
+          I am currently a dental hygienist and studying Digital Media. I love
+          throwing pottery and reading. I also spend a surprising amount of time
+          telling my patients about Maine and all the great places to see and
+          eat. I would love to share them with you in the hope that you can
+          escape this humid place—even if just for a weekend.
+        </p>
+      </div>
+
+      <div class="pottery-image">
+        <img
+          src="images/potteryphoto.jpg"
+          alt="Pottery Photo"
+          class="pottery-photo"
+        />
+      </div>
+    </section>
+
+    <section class="project-section">
+      <h3>My Emotional Support State</h3>
+      <h4>There are MANY reasons I love Maine</h4>
+      <ul class="like-list">
+        <li>Average summmer weather is in the 70s</li>
+        <li>Four seasons, who doesn't love apple picking!</li>
+        <li>Ocean, mountians and islands</li>
+        <li>The best lobster and ice cream</li>
+      </ul>
+
+      <a href="https://www.shainsofmaine.com/general-1" target="_blank"
+        >Click Here for Shain's of Maine. This is my favorite place to eat!</a
+      >
+    </section>
+
+    <br />
+  </body>
+</html>
