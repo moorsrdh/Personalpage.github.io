@@ -1,145 +1,215 @@
-body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../images/portlandheadlight.avif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  box-sizing: border-box; 
-  padding: 80px 60px;
-  height: 800px;  
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: top; 
-  color: antiquewhite;
-  font-size: 60px;
-  margin: 10px 0;
+body{
 
- 
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#556272;
+
+    color:antiquewhite;
+
 }
 
-h2 {
-  font-family: "Apercu", sans-serif;
-  text-align: left;
-  color: antiquewhite;
-  font-size: 30px;
+/* HERO */
+
+.hero{
+
+    height:100vh;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+    url("../images/portlandheadlight.avif");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
 }
 
-h3 {
-  font-family: "Apercu", sans-serif;
-  text-align: center;
-  color: antiquewhite;
-  font-size: 30px;
+.hero-content{
+
+    width:650px;
+
 }
 
-h4 {
-  font-family: "Apercu", sans-serif;
-  text-align: center;
-  color: antiquewhite;
-  font-size: 20px;
+.hero h1{
+
+    font-family:Georgia, serif;
+
+    font-size:90px;
+
+    line-height:1;
+
+    margin-bottom:25px;
+
 }
 
-.intro-paragraph,
-.about-paragraph,
-.project-paragraph {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 22px;
-  color: bisque;
-  text-align: center;
-  line-height: 1.6;
-  max-width: 600px;
-  margin: 0 auto;
+.divider{
+
+    width:220px;
+
+    height:2px;
+
+    background:antiquewhite;
+
+    margin:25px auto;
+
 }
 
-.project-title {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: medium;
-  color: bisque;
-  text-align: center;
-  line-height: 1.6;
-  max-width: 600px;
+.hero p{
+
+    font-size:24px;
+
+    line-height:1.6;
+
+    margin-bottom:30px;
+
 }
 
-.like-list {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 22px;
-  display: inline-block;
-  color: bisque;
-  text-align: left;
-  line-height: 1.6;
-  max-width: 600px;
+.hero a{
+
+    color:white;
+
+    font-size:22px;
+
 }
 
-.intro-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-  max-width: 1100px;
-  margin: 50px auto;
-  padding: 20px;
-  flex-wrap: wrap;
+.hero a:hover{
+
+    color:gold;
+
 }
 
-.maine-photo {
-  width: 250px;
-  height: auto;
-  border: 1px solid #faf9e1;
-  border-radius: 4px;
-  padding: 5px;
-  display: block;
+/* ABOUT */
+
+.about{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:80px 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:60px;
+
+    flex-wrap:wrap;
+
 }
 
-.pottery-photo {
-  width: 250px;
-  height: auto;
-  border: 1px solid #faf9e1;
-  border-radius: 4px;
-  padding: 5px;
-  display: block;
+.photo{
+
+    width:280px;
+
+    border:2px solid white;
+
+    border-radius:5px;
+
 }
 
-.about-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  max-width: 1100px;
-  margin: 50px auto;
-  padding: 20px;
-  flex-wrap: wrap;
+.about-text{
+
+    width:450px;
+
+    text-align:center;
+
 }
 
-.intro-text,
-.aboutme {
-  flex: 1;
-  min-width: 300px;
+.about-text h2{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
 }
 
-.intro-image,
-.pottery-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+.about-text p{
+
+    font-size:22px;
+
+    line-height:1.7;
+
 }
 
-.project-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1100px;
-  margin: 50px auto;
-  padding: 20px;
+/* FAVORITES */
+
+.favorites{
+
+    padding:40px;
+
+    text-align:center;
+
 }
 
-a {
-  color: white;
-  text-decoration: underline;
-  font-weight: bold;
+.favorites h2{
+
+    font-size:46px;
+
+    margin-bottom:10px;
+
 }
 
-a:hover {
-  color: antiquewhite;
+.subtitle{
+
+    font-size:24px;
+
+    margin-bottom:50px;
+
+}
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:40px;
+
+}
+
+.card{
+
+    padding:20px;
+
+}
+
+.card i{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+    font-size:28px;
+
+}
+
+.card p{
+
+    font-size:20px;
+
+    line-height:1.5;
+
 }
