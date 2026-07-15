@@ -5,7 +5,7 @@ body {
   background-position: center;
   box-sizing: border-box; 
   padding: 60px 40px;
-  height: 600px;  
+  height: 800px;  
 }
 
 h1 {
@@ -47,7 +47,7 @@ h4 {
   color: bisque;
   text-align: center;
   line-height: 1.6;
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
