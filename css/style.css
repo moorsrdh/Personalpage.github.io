@@ -70,39 +70,21 @@ body {
   border-radius: 5px;
 }
 }
-.button {
+#maineButton {
   background-color: rgb(143, 143, 221);
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   cursor: pointer;
 }
-.button {
-  transition-duration: 0.4s;
+
+#maineButton:hover {
+  background-color: #4caf50;
 }
 
-.button:hover {
-  background-color: #4caf50;
-  color: white;
-}
 .buttonanswer {
   display: none;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
-  font-size: medium;
-  max-width: 1200px;
-  margin: auto;
-  padding: 80px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-  flex-wrap: wrap;
 }
 .about-text {
   width: 450px;
