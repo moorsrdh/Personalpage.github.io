@@ -69,10 +69,15 @@ body {
   border: 2px solid white;
   border-radius: 5px;
 }
+.button-container {
+  text-align: center;
+  padding: 40px;
+}
+
 #maineButton {
   background-color: rgb(143, 143, 221);
   border: none;
-  color: pink;
+  color: white;
   padding: 15px 32px;
   font-size: 16px;
   cursor: pointer;
@@ -84,19 +89,7 @@ body {
 
 .buttonanswer {
   display: none;
-}
- 
-.button-container {
-  text-align: center;
-  padding: 40px;
-}
-
-#maineButton:hover {
-  background-color: #4caf50;
-}
-
-.buttonanswer {
-  display: none;
+  margin-top: 20px;
 }
 .about-text {
   width: 450px;
